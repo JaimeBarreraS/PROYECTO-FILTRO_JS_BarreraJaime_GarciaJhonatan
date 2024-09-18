@@ -1,0 +1,33 @@
+:root{
+    --color--one: #14162C;
+    --color--one--rgba: #191b3fdf;
+    --color--two: #cfcfd1;
+    --color--three: #298bfe;
+    --color--four: #e52d2d;
+    --color--five: #ffffff;
+    --color--six: #ffd733;
+
+    --layout-description-container-x: 10px;
+    --layout-description-container-y: 10px;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../storage/font/Roboto/Roboto-Regular.ttf);
+}
+/* 
+    <!-- Check icons -->
+    <i class='bx bxs-check-circle' style='color:#9499c3'  ></i>
+    <i class='bx bxs-check-circle' style='color:#40c110'  ></i>
+    <i class='bx bxs-check-circle' style='color:#ea7b15'  ></i>
+
+    <!-- Nav icons -->
+    <img src="storage/iconos/rocket.svg">
+    <i class='bx bx-body' style='color:#e72d2d'></i>
+    <img src="storage/iconos/comms.svg">
+    <img src="storage/iconos/prop.svg">
+    <img src="storage/iconos/mech.svg">
+    <i class='bx bxs-battery-charging bx-rotate-270' style='color:#ffffff'  ></i>
+    <i class='bx bxs-chip' style='color:#ffffff'  ></i>
+    <i class='bx bx-current-location bx-rotate-270' style='color:#ffffff'  ></i>
+    <i class='bx bxs-brightness-half' style="color: #fff"></i> */
