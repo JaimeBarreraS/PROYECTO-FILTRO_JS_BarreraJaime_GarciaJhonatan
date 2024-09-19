@@ -71,8 +71,12 @@ body {
 
 .description__item {
     /* background: blue; */
-    overflow-y: auto;
     height: 75vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+    padding-left: 3vw;
 }
 
 .description__buttom {
@@ -121,7 +125,7 @@ body {
     display: flex;
     overflow-x: auto;
     gap: 10px;
-    justify-content: space-evenly;
+
 }
 
 .section__information__1>.carousel__item {

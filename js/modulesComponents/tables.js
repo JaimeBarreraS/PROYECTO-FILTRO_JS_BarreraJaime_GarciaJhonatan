@@ -75,9 +75,9 @@ export const tableRocketColum2 = async (Rocket)=>{
     let information__table__2 = document.querySelector("#information__table__2");
     information__table__2.innerHTML = "";
     let h3 = document.createElement("h3");
-    h3.textContent = "Engine information"
+    h3.textContent = ""
     let hr = document.createElement("hr");
-    information__table__2.append(h3, hr)
+    information__table__2.append(h3)
 
     let div = document.createElement("div");
     div.classList.add("table__container__1");
@@ -92,7 +92,7 @@ export const tableRocketColum2 = async (Rocket)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "Engine availability"
+    span2.textContent = ""
     let strong2 = document.createElement("strong");
     strong2.textContent = `${(Rocket.engines.layout) ? Rocket.engines.layout : ""}`
     div2.append(span2, strong2)
@@ -130,7 +130,7 @@ export const tableRocketColum2 = async (Rocket)=>{
     div6.append(span6, strong6)
 
     div.append(div6, div1, div2, div3, div4, div5)
-    information__table__2.append(div)
+   
     // 
 
     // <h3>Title</h3>

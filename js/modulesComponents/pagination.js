@@ -9,7 +9,10 @@ import {
     informationRockets,
     informationLaunchCostRocket,
     informationFirstFlightRocket,
-    informationWebRocket
+    informationWebRocket,
+    informationFirstFlightRockets,
+    informationFirstFlightRocketsa,
+    informationFirstFlightRocketsb  
 } from "./information.js";
 import { 
     tableRocketColum1, 
@@ -17,7 +20,7 @@ import {
 } from "./tables.js";
 import { 
     informRocketEngineThrustSeaLevel, 
-    informRocketEngineThrustVacuum
+    informRocketEngineThrustVacuum,
 } from "./inform.js";
 import { 
     imageRockets 
@@ -123,6 +126,9 @@ const getRocketsId = async(e)=>{
     await informationLaunchCostRocket(Rocket.cost_per_launch)
     await informationFirstFlightRocket(Rocket.first_flight)
     await informationWebRocket(Rocket.wikipedia)
+    await informationFirstFlightRockets (Rocket.first)
+    await informationFirstFlightRocketsa (Rocket.firsta)
+    await informationFirstFlightRocketsb (Rocket.firstb)
 
     await informRocketEngineThrustSeaLevel(Rocket.engines.thrust_sea_level);
     await informRocketEngineThrustVacuum(Rocket.engines.thrust_vacuum);
