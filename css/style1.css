@@ -1,0 +1,117 @@
+@font-face {
+    font-family: D;
+    src: url(../storage/font/D-DIN/D-DIN-Italic.woff2) format("woff2"),url(fonts/D-DIN-Bold.woff) format("woff"),url(fonts/D-DIN-Bold.otf) format("opentype");
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+#text1{
+    position: absolute;
+    left: 35vw;
+    font-size: 1.1vw;
+    margin-top: -54vw;
+    color: white; 
+    font-family: D;
+}
+
+#text2{
+    position: absolute;
+    left: 45vw;
+    font-size: 1.1vw;
+    margin-top: -54vw;
+    color: white; 
+    font-family: D;
+
+}
+
+#text3{
+    position: absolute;
+    left: 55vw;
+    font-size: 1.1vw;
+    margin-top: -54vw;
+    color: white; 
+    font-family: D;
+
+}
+
+#text4{
+    position: absolute;
+    left: 65vw;
+    font-size: 1.1vw;
+    margin-top: -54vw;
+    color: white; 
+    font-family: D;
+
+}
+
+#mision{
+    position: absolute;
+    left: 15vw;
+    font-size: 1.1vw;
+    margin-top: -20.4vw;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#misionName{
+    position: absolute;
+    left: 14.9vw;
+    font-size: 2.5vw;
+    margin-top: -19.3vw;
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+#containerF{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#videoFondo{
+    width: 100%;
+    height: auto;
+}
+
+#logoSpace{
+    position: absolute;
+    justify-content: center;
+    width: 15vw;
+    height: 7vw;
+    left: 18vw;
+    top: -1vw;
+
+}
+
+#SquaredWhite{
+    position: absolute;
+    margin-top: -16vw;
+    left: 15vw;
+    width: 8vw;
+    height: 2.8vw;
+    
+    border: 2.2px solid white;
+
+}
+
+#rewatch{
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    top: -0.2vw;
+    left: 1.5vw;
+   
+}
+
