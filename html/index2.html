@@ -3,28 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpaceX</title>
+    <title>Vehicle Overview</title>
     <link rel="stylesheet" href="../css/style2.css">
 </head>
 <body>
     <div class="container">
-        <div class="img">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
-            <img src="../storage/img/icons/check.svg" alt="">
+        <!-- Header Section -->
+        <header>
+            <h1>VEHICLE OVERVIEW</h1>
+        </header>
+
+        <!-- System Check Section -->
+        <section class="system-check">
+            <div class="status normal">ALL SYSTEMS CHECK</div>
+            <div class="status normal">RENDEZVOUS BURN SLOW</div>
+            <div class="status normal">PREPARE RENDEZVOUS BURN</div>
+            <div class="status green">THERMAL SHIELD</div>
+            <div class="status normal">BURN GO/NO-GO</div>
+            <div class="status awaiting">POWER COMPLETION</div>
+            <div class="status normal">STATION DECK CHECK</div>
+        </section>
+
+        <!-- Main Display Section -->
+        <section class="main-display">
+            <div class="data-block">
+                <h3>PPO2</h3>
+                <p>2.69 psia</p>
+            </div>
+            <div class="data-block">
+                <h3>Cabin Temp</h3>
+                <p>2.41°C</p>
+            </div>
+            <div class="data-block">
+                <h3>Cabin Pressure</h3>
+                <p>14.00 psia</p>
+            </div>
+            <div class="data-block">
+                <h3>CO2</h3>
+                <p>0.07 mmHg</p>
+            </div>
+        </section>
+
+        <!-- Loop and Power Section -->
+        <section class="loop-power1">
+            <div class="loop-block1">
+                <h3>LOOP A</h3>
+                <p>26.53°C</p>
+            </div>
+            <div class="loop-block2">
+                <h3>LOOP B</h3>
+                <p>20.00°C</p>
+            </div>
+        </section>
+        <section class="loop-power2">
+            <div class="power-block11">
+                <h3>NET PWR 1</h3>
+                <p>0.00 W</p>
+            </div>
+            <div class="power-block22">
+                <h3>NET PWR 2</h3>
+                <p>0.00 W</p>
+            </div>
+        </section>
+
+        <!-- Connections Section -->
+        <section class="connections">
+            <h3>Connections</h3>
+            <ul>
+                <li>Manual Rigs: Connected</li>
+                <li>Changelog: Connected</li>
+                <li>Airlock: Connected</li>
+                <li>Wing: Connected</li>
+            </ul>
+        </section>
+
+        <!-- Velocity and Range Section -->
+        <section class="velocity-range">
+            <div class="data-block">
+                <h3>Inertial Velocity</h3>
+                <p>7.68 km/s</p>
+            </div>
+            <div class="data-block">
+                <h3>Altitude</h3>
+                <p>390.0 km</p>
+            </div>
+            <div class="data-block">
+                <h3>Apogee</h3>
+                <p>404.4 km</p>
+            </div>
+            <div class="data-block">
+                <h3>Perigee</h3>
+                <p>389.4 km</p>
+            </div>
+            <div class="data-block">
+                <h3>Inclination</h3>
+                <p>51.67°</p>
+            </div>
+            <div class="data-block">
+                <h3>Range to ISS</h3>
+                <p>0.02 km</p>
+            </div>
+        </section>
+        <!-- menu -->
+        <div class="menu-container">
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#"><img src="../storage/img/icons/company.svg" alt="Overview"> Company</a></li>
+                    <li><a href="#"><img src="../storage/img/icons/capsule.svg" alt="Life"> Capsule</a></li>
+                    <li><a href="#"><img src="../storage/img/icons/history.svg" alt="Comms"> History</a></li>
+                    <li><a href="#"><img src="../storage/img/icons/rocket.svg" alt="Prop"> Rockets</a></li>
+            </nav>
         </div>
-        <div class="info1">
-            <div id="info11"><p>ALL SYSTEMS CHECK</p><br><p>Normal</p></div>
-            <div id="info11"><p>RENDEZVOUS BUR SLOW</p><br><p>Normal</p></div>
-            <div id="info11"><p>PREPARE RENDEZVOUS BOURN</p><br><p>Normal</p></div>
-            <div id="info11"><p>THERMAL SHIELD</p><br><p>Applied</p></div>
-            <div id="info11"><p>BURN GO/NO-GO</p><br><p>Normal</p></div>
-            <div id="info11"><p>POWER COMPLETION</p><br><p>Awaiting</p></div>
-            <div id="info11"><p>STATION DECK CHECK</p><br><p>Normal</p></div>
+        <div class="linea"></div>
+
+        <!-- Footer Section -->
+        <div class="Footer">
+            <p>Power, Engine, Comms</p>
         </div>
     </div>
 </body>

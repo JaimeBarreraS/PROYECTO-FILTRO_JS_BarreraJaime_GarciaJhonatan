@@ -1,23 +1,132 @@
-.container{
-    width: 100%;
-    height: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.img{
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1b2a;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    border: 1px solid red;
+    width: 50vw;
+    justify-content: center;
+    display: flex;
+    margin-left: 23vw;
+    margin-top: 2vw;
+}
+
+.system-check{
+    border: 1px solid red;
+    width: 20vw;
+    height: 70vh;
+    margin-top: vw;
+}
+.main-display{
+    border: 1px solid red;
+    width: 53vw;
+    height: 25vh;
+    margin-left: 22vw;
+    margin-top: -32.5vw;
+}
+.loop-power1{
+    border: 1px solid red;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 22vw;
+}
+.loop-power2{
+    border: 1px solid red;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 55vw;
+    margin-top: -9.7vw;
+}
+.connections{
+    border: 1px solid red;
+    width: 15vw;
+    height: 20vh;
+    margin-left: 22vw;
+    padding-left: 2vw;
+}
+.velocity-range{
+    border: 1px solid red;
+    width: 20vw;
+    height: 70vh;
+    margin-left: 77vw;
+    margin-top: -32.5vw;
+}
+
+.menu-container {
+    width: 40%;
+    background-color: transparent;
+    margin-left: 28vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14213d;
+    border-top-left-radius: 70vw;
+    border-top-right-radius: 69vw;
+    margin-top: 5.5vw;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
     display: flex;
     flex-direction: column;
-    width: 3vw;
-    height: 3vw;
-    gap: 10vw;
-    padding-top: 20vw;
-    padding-left: 7vw;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
 }
-.info1{
-    display: flex;
-    flex-direction: column;
-    padding-left: 12vw;
-    margin-top: -4vw;
+
+.menu img {
+    width: 27px;
+    height: 27px;
+    margin-bottom: 2px;
+    margin-top: 4px;
 }
-.info11{
-    padding: 0;
+
+.menu li.active a {
+    color: #fca311;
+}
+
+.menu li.active::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fca311;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.Footer{
+    border: 1px solid red;
+    width: 20vw;
+    height: 4vh;
+    margin-left: 77vw;
+    margin-top: -32.5vw;
+}
+.linea{
+    background-color: #14213d;
+    width: 100vw;
+    height: 2vh;
+    margin-top: -0.5vw;
 }
