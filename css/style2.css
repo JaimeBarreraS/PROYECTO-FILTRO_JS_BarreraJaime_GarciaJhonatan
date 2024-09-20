@@ -73,9 +73,9 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #14213d;
-    border-top-left-radius: 70vw;
-    border-top-right-radius: 69vw;
-    margin-top: 5.5vw;
+    border-radius: 0.5vw;
+    margin-top: 6vw;
+    z-index: 2;
 }
 
 .menu ul {
@@ -84,7 +84,7 @@ header{
 }
 
 .menu li {
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .menu a {
@@ -127,6 +127,25 @@ header{
 .linea{
     background-color: #14213d;
     width: 100vw;
-    height: 2vh;
+    height: 1.2vh;
     margin-top: -0.5vw;
+    z-index: 2;
+}
+.a{
+    margin-top: -3.5vw;
+    width: 10vw;
+    height: 0;
+    border: 60px solid transparent;
+    border-top: 0;
+    border-bottom: 50px solid #14213d;
+    margin-left: 24vw;
+}
+.b{
+    margin-top: -3.2vw;
+    width: 10vw;
+    height: 0;
+    border: 60px solid transparent;
+    border-top: 0;
+    border-bottom: 50px solid #14213d;
+    margin-left: 54.1vw;
 }
