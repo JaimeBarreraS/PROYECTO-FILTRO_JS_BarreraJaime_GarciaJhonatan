@@ -1,3 +1,8 @@
+@font-face {
+    font-family: D;
+    src: url(../storage/font/spacex/SpaceX.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,12 +23,25 @@ header{
     justify-content: center;
     display: flex;
     margin-top: 2vw;
+    font-family: D;
 }
 
 .system-check{
     border: 1px solid red;
     width: 20vw;
     height: 70vh;
+}
+.system-check #pa{
+    margin-left: 6.5vw;
+    margin-top: -1.3vw;
+}
+.system-check img{
+    margin-top: 2vw;
+    margin-left: 4vw;
+}
+.system-check #pb{
+    margin-left: 6.5vw;
+    margin-top: 0.1vw;
 }
 .main-display{
     border: 1px solid red;
