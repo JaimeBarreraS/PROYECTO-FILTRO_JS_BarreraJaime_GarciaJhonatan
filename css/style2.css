@@ -14,10 +14,9 @@ body {
 
 header{
     border: 1px solid red;
-    width: 50vw;
+    width: 100vw;
     justify-content: center;
     display: flex;
-    margin-left: 23vw;
     margin-top: 2vw;
 }
 
@@ -25,14 +24,13 @@ header{
     border: 1px solid red;
     width: 20vw;
     height: 70vh;
-    margin-top: vw;
 }
 .main-display{
     border: 1px solid red;
     width: 53vw;
     height: 25vh;
     margin-left: 22vw;
-    margin-top: -32.5vw;
+    margin-top: -68vh;
 }
 .loop-power1{
     border: 1px solid red;
@@ -45,7 +43,7 @@ header{
     width: 20vw;
     height: 20vh;
     margin-left: 55vw;
-    margin-top: -9.7vw;
+    margin-top: -20.4vh;
 }
 .connections{
     border: 1px solid red;
@@ -59,13 +57,18 @@ header{
     width: 20vw;
     height: 70vh;
     margin-left: 77vw;
-    margin-top: -32.5vw;
+    margin-top: -68vh;
 }
 
 .menu-container {
-    width: 40%;
+    width: 35%;
     background-color: transparent;
-    margin-left: 28vw;
+    margin-left: 22vw;
+    width: 50vw;
+    height: 0;
+    border: 60px solid transparent;
+    border-top: 0;
+    border-bottom: 70px solid #14213d;
 }
 
 .menu {
@@ -74,7 +77,7 @@ header{
     align-items: center;
     background-color: #14213d;
     border-radius: 0.5vw;
-    margin-top: 6vw;
+    margin-top: 15.8vh;
     z-index: 2;
 }
 
@@ -84,7 +87,7 @@ header{
 }
 
 .menu li {
-    margin: 0 40px;
+    margin: 0 2vw;
 }
 
 .menu a {
@@ -122,30 +125,12 @@ header{
     width: 20vw;
     height: 4vh;
     margin-left: 77vw;
-    margin-top: -32.5vw;
+    margin-top: -10vh;
 }
 .linea{
     background-color: #14213d;
     width: 100vw;
-    height: 1.2vh;
-    margin-top: -0.5vw;
+    height: 4vh;
+    margin-top: -2.5vh;
     z-index: 2;
-}
-.a{
-    margin-top: -3.5vw;
-    width: 10vw;
-    height: 0;
-    border: 60px solid transparent;
-    border-top: 0;
-    border-bottom: 50px solid #14213d;
-    margin-left: 24vw;
-}
-.b{
-    margin-top: -3.2vw;
-    width: 10vw;
-    height: 0;
-    border: 60px solid transparent;
-    border-top: 0;
-    border-bottom: 50px solid #14213d;
-    margin-left: 54.1vw;
 }
