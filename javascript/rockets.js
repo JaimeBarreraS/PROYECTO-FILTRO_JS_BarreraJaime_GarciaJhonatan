@@ -4,7 +4,7 @@ fetch(url)
     .then(Data => {
         let info_rocket = document.getElementById("name");
         info_rocket.innerHTML += `
-        <h1>${Data[0].name}</h1>
+        <h1>${Data[0].name.toUpperCase()}</h1>
         `;
         let velocity_section = document.getElementById("data-velocity")
         velocity_section.innerHTML += `
@@ -35,6 +35,17 @@ fetch(url)
         let description_section = document.getElementById("description_section")
         description_section.innerHTML += `
         <p>${Data[0].description}</p>
+        `;
+        let information = document.getElementById("Information")
+        information.innerHTML += `
+        <p>Type: <span>${Data[0].type}</span></p>
+        <p>active: <span>${Data[0].active}</span></p>
+        <p>Stages: <span>${Data[0].stages}</span></p>
+        <p>Boosters: <span>${Data[0].boosters}</span></p>
+        <p>Cost Per Launch: <span>$ ${Data[0].cost_per_launch}</span></p>
+        <p>First Fling: <span>${Data[0].first_flight}</span></p>
+        <p>Country: <span>${Data[0].country}</span></p>
+        <p>Company: <span>${Data[0].company}</span></p>
         `;
     });
 
