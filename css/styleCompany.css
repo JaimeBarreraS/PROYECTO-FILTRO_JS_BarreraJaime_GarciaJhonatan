@@ -1,0 +1,32 @@
+@font-face {
+    font-family: D;
+    src: url(../storage/font/spacex/SpaceX.ttf);
+}
+
+h1{
+    font-family: d;
+    font-size: 3vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1b2a;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vw;
+    border-radius: 2vw;
+}
