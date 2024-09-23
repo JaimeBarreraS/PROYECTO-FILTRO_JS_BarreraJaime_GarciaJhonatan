@@ -13,7 +13,6 @@
         <header>
             <div id="name"></div>
         </header>
-
         <!-- System Check Section -->
         <section class="system-check">
             <div class="status normal"> <img src="../storage/img/icons/check.svg" alt=""><p id="pa">ALL SYSTEMS CHECK</p><p id="pb">Normal</p></div>
@@ -27,21 +26,41 @@
 
         <!-- Main Display Section -->
         <section class="main-display">
-            <div class="data-block">
+            <div class="data-display1">
+                <svg class="c1">
+                    <circle id="color1" r="4.1vw" cx="50%" cy="50%" pathlength="100" />
+                    <circle id="color2" r="4.25vw" cx="50%" cy="50%" pathlength="100" />
+                </svg> 
                 <h3>PPO2</h3>
-                <p>2.69 psia</p>
+                <h2>2.69</h2>
+                <p>psia</p>
             </div>
-            <div class="data-block">
+            <div class="data-display2">
+                <svg class="c2">
+                    <circle id="color3" r="4.1vw" cx="50%" cy="50%" pathlength="100" />
+                    <circle id="color4" r="4.25vw" cx="50%" cy="50%" pathlength="100" />
+                </svg> 
                 <h3>Cabin Temp</h3>
-                <p>2.41°C</p>
+                <h2>2.41</h2>
+                <p>°C</p>
             </div>
-            <div class="data-block">
+            <div class="data-display3">
+                <svg class="c3">
+                    <circle id="color5" r="4.1vw" cx="50%" cy="50%" pathlength="100" />
+                    <circle id="color6" r="4.25vw" cx="50%" cy="50%" pathlength="100" />
+                </svg> 
                 <h3>Cabin Pressure</h3>
-                <p>14.00 psia</p>
+                <h2>14.00</h2>
+                <p>psia</p>
             </div>
-            <div class="data-block">
+            <div class="data-display4">
+                <svg class="c4">
+                    <circle id="color7" r="4.1vw" cx="50%" cy="50%" pathlength="100" />
+                    <circle id="color8" r="4.25vw" cx="50%" cy="50%" pathlength="100" />
+                </svg> 
                 <h3>CO2</h3>
-                <p>0.07 mmHg</p>
+                <h2>0.07</h2>
+                <p>mmHg</p>
             </div>
         </section>
 
@@ -77,41 +96,67 @@
                 <li>Wing: Connected</li>
             </ul>
         </section>
+        <!-- Imagenes Section -->
+        <div class="image_section">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img id="carouselImage" src="" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Description Section -->
+        <div id="description_section">
 
+        </div>
         <!-- Velocity and Range Section -->
         <section class="velocity-range">
-            <div class="data-block">
-                <h3>Inertial Velocity</h3>
-                <p>7.68 km/s</p>
+            <div id="data-velocity">
+                <div class="bar">
+                    <div class="porcent1"></div>
+                </div>
+                <h3>Height</h3>
             </div>
-            <div class="data-block">
-                <h3>Altitude</h3>
-                <p>390.0 km</p>
+            <div id="data-velocity2">
+                <div class="bar">
+                    <div class="porcent2"></div>
+                </div>
+                <h3>Diameter</h3>
             </div>
-            <div class="data-block">
-                <h3>Apogee</h3>
-                <p>404.4 km</p>
+            <div id="data-velocity3">
+                <div class="bar">
+                    <div class="porcent3"></div>
+                </div>
+                <h3>Mass</h3>
             </div>
-            <div class="data-block">
-                <h3>Perigee</h3>
-                <p>389.4 km</p>
+            <div id="data-velocity4">
+                <div class="bar">
+                    <div class="porcent4"></div>
+                </div>
+                <h3>Thrust sea level</h3>
             </div>
-            <div class="data-block">
-                <h3>Inclination</h3>
-                <p>51.67°</p>
+            <br>
+            <br>
+            <div id="data-velocity5">
+                <div class="bar">
+                    <div class="porcent5"></div>
+                </div>
+                <h3>Thrust vacuum</h3>
             </div>
-            <div class="data-block">
-                <h3>Range to ISS</h3>
-                <p>0.02 km</p>
+            <div id="data-velocity6">
+                <div class="bar">
+                    <div class="porcent6"></div>
+                </div>
+                <h3>Engines</h3>
             </div>
         </section>
+        <!-- Rockets Section -->
         <div class="rockets">
             <div><a href="#"></a>1</div>
             <div><a href="#"></a>2</div>
             <div><a href="#"></a>3</div>
             <div><a href="#"></a>4</div>
         </div>
-        <!-- menu -->
+        <!-- Main-Container -->
         <div class="menu-container">
             <nav class="menu">
                 <ul>

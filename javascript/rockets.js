@@ -1,11 +1,66 @@
 let url = "https://api.spacexdata.com/v4/rockets";
-    fetch(url)
+fetch(url)
     .then(res => res.json())
     .then(Data => {
         let info_rocket = document.getElementById("name");
-        info_rocket.innerHTML+=`
+        info_rocket.innerHTML += `
         <h1>${Data[0].name}</h1>
         `;
-        
+        let velocity_section = document.getElementById("data-velocity")
+        velocity_section.innerHTML += `
+        <p>${Data[0].height.meters} Mts</p>
+        `;
+        let velocity_section2 = document.getElementById("data-velocity2")
+        velocity_section2.innerHTML += `
+        <p>${Data[0].diameter.meters} Mts</p>
+        `;
+        let velocity_section3 = document.getElementById("data-velocity3")
+        let kg = Data[0].mass.kg;
+        let tons = kg / 1000;
+        velocity_section3.innerHTML += `
+        <p>${tons} Tn</p>
+        `;
+        let velocity_section4 = document.getElementById("data-velocity4")
+        velocity_section4.innerHTML += `
+        <p>${Data[0].first_stage.thrust_sea_level.kN} kN</p>
+        `;
+        let velocity_section5 = document.getElementById("data-velocity5")
+        velocity_section5.innerHTML += `
+        <p>${Data[0].first_stage.thrust_vacuum.kN} kN</p>
+        `;
+        let velocity_section6 = document.getElementById("data-velocity6")
+        velocity_section6.innerHTML += `
+        <p>${Data[0].second_stage.engines}</p>
+        `;
+        let description_section = document.getElementById("description_section")
+        description_section.innerHTML += `
+        <p>${Data[0].description}</p>
+        `;
     });
-        
+
+
+let currentIndex = 0;
+const images = [
+    '../storage/img/icons/img-rocket/imagen1.webp',
+    '../storage/img/icons/img-rocket/imagen2.webp',
+    '../storage/img/icons/img-rocket/imagen3.jpg'
+];
+
+function updateCarousel() {
+    const imgElement = document.getElementById('carouselImage');
+    imgElement.src = images[currentIndex];
+}
+const preloadImages = () => {
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+};
+
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateCarousel();
+}, 3000); 
+
+preloadImages();
+updateCarousel();
