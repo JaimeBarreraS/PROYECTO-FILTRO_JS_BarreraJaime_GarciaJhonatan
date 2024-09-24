@@ -44,7 +44,7 @@ header{
     height: 2vw;
     top: 8vw;
     /* border: 1px solid white; */
-    left: 1vw;
+    left: 43vw;
     font-family: D;
 }
 
@@ -55,7 +55,7 @@ header{
     height: 2vw;
     top: 14vw;
     /* border: 1px solid white; */
-    left: 2vw;
+    left: 44.5vw;
     font-family: T;
     z-index: 2;
 
@@ -69,7 +69,7 @@ header{
     height: 2vw;
     top: 14vw;
     /* border: 1px solid white; */
-    left: 5vw;
+    left: 47.5vw;
     font-family: T;
     z-index: 2;
 }
@@ -81,7 +81,7 @@ header{
     height: 2vw;
     top: 16vw;
     /* border: 1px solid white; */
-    left: 2vw;
+    left: 44.3vw;
     font-family: T;
 }
 
@@ -92,7 +92,7 @@ header{
     height: 2vw;
     top: 16vw;
     /* border: 1px solid white; */
-    left: 5.6vw;
+    left: 48vw;
     font-family: T;
 
 }
@@ -104,7 +104,7 @@ header{
     height: 2vw;
     top: 12vw;
     /* border: 1px solid white; */
-    left: 2vw;
+    left: 44vw;
     font-family: T;
 }
 
@@ -115,7 +115,7 @@ header{
     height: 2vw;
     top: 12vw;
     /* border: 1px solid white; */
-    left: 7.4vw;
+    left: -5vw;
     font-family: T;
 }
 
@@ -124,9 +124,9 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 18vw;
+    top: 20vw;
     /* border: 1px solid white; */
-    left: 2vw;
+    left: 3vw;
     font-family: T;
 }
 
@@ -135,9 +135,9 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 18vw;
+    top: 22vw;
     /* border: 1px solid white; */
-    left: 7.4vw;
+    left: 4vw;
     font-family: T;
 }
 
@@ -146,7 +146,8 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 12vw;
+    top: 8vw;
+    left: -5vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -158,7 +159,8 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 14vw;
+    top: 10vw;
+    left: -5vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -170,7 +172,8 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 16vw;
+    top: 12vw;
+    left: -5vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -182,7 +185,8 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 18vw;
+    top: 14vw;
+    left: -5vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -194,7 +198,8 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 20vw;
+    top: 16vw;
+    left: -5vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -206,7 +211,82 @@ header{
     font-size: 1vw;
     width: 20vw;
     height: 2vw;
-    top: 27vw;
+    top: 18vw;
+    left: -5vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+
+}
+
+#textCeo{
+    position: absolute;
+    font-size: 1vw;
+    width: 20vw;
+    height: 2vw;
+    top: 8vw;
+    left: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+}
+
+#ceo{
+    position: absolute;
+    font-size: 0.8vw;
+    width: 20vw;
+    height: 2vw;
+    top: 10vw;
+    left: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+}
+
+#textCoo{
+    position: absolute;
+    font-size: 1vw;
+    width: 20vw;
+    height: 2vw;
+    top: 12vw;
+    left: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+}
+
+#coo{
+    position: absolute;
+    font-size: 0.8vw;
+    width: 20vw;
+    height: 2vw;
+    top: 14vw;
+    left: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+
+}
+
+#textCto_propulsion{
+    position: absolute;
+    font-size: 1vw;
+    width: 20vw;
+    height: 2vw;
+    top: 16vw;
+    left: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: T;
+}
+
+#cto_propulsion{
+    position: absolute;
+    font-size: 0.8vw;
+    width: 20vw;
+    height: 2vw;
+    top: 18vw;
+    left: 80vw;
     /* border: 1px solid white; */
     text-align: center;
     font-family: T;
@@ -501,4 +581,14 @@ header{
     width: 100vw;
     height: 3vh;
     bottom: -1.5vh;
+}
+
+#cuadro1{
+    position: absolute;
+    width: 14vw;
+    height: 24vw;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 2vw;
+    border-color: #00bcd4;
 }

@@ -32,12 +32,13 @@ updateCarousel();
 // Carousel 2
 let currentIndex1 = 0;
 const images1 = [
-    '../storage/img/icons/img-company/1.jpg',
-    '../storage/img/icons/img-company/2.jpg',
-    '../storage/img/icons/img-company/3.jpg',
-    '../storage/img/icons/img-company/4.jpg',
-    '../storage/img/icons/img-company/5.jpg',
-    '../storage/img/icons/img-company/6.jpg'
+    '../storage/img/icons/img-company/a (1).jpg',
+    '../storage/img/icons/img-company/a (2).jpg',
+    '../storage/img/icons/img-company/a (3).jpg',
+    '../storage/img/icons/img-company/a (4).jpg',
+    '../storage/img/icons/img-company/a (5).jpg',
+    '../storage/img/icons/img-company/a (6).jpg'
+   
 ];
 
 function updateCarousel1() {
@@ -63,12 +64,13 @@ updateCarousel1();
 // Carousel 3
 let currentIndex2 = 0;
 const images2 = [
-    '../storage/img/icons/img-company/1.jpg',
-    '../storage/img/icons/img-company/2.jpg',
-    '../storage/img/icons/img-company/3.jpg',
-    '../storage/img/icons/img-company/4.jpg',
-    '../storage/img/icons/img-company/5.jpg',
-    '../storage/img/icons/img-company/6.jpg'
+    '../storage/img/icons/img-company/b (1).jpg',
+    '../storage/img/icons/img-company/b (2).jpg',
+    '../storage/img/icons/img-company/b (3).jpg',
+    '../storage/img/icons/img-company/b (4).jpg',
+    '../storage/img/icons/img-company/b (5).jpg',
+    '../storage/img/icons/img-company/b (6).jpg'
+  
 ];
 
 function updateCarousel2() {
@@ -136,7 +138,7 @@ fetch(url)
         `;
 
         let launch_sites = document.getElementById("launch_sites");
-        textlaunch_sites.innerHTML += `
+        launch_sites.innerHTML += `
         <p>${data.launch_sites}</p>
         `;
 
@@ -144,6 +146,21 @@ fetch(url)
         let sumary = document.getElementById("sumary");
         sumary.innerHTML += `
         <p>${data.summary}</p>
+        `;
+
+        let ceo = document.getElementById("ceo");
+        ceo.innerHTML += `
+        <p>${data.ceo}</p>
+        `;
+
+        let coo = document.getElementById("coo");
+        coo.innerHTML += `
+        <p>${data.coo}</p>
+        `;
+
+        let cto_propulsion = document.getElementById("cto_propulsion");
+        cto_propulsion.innerHTML += `
+        <p>${data.cto_propulsion}</p>
         `;
     })
 
