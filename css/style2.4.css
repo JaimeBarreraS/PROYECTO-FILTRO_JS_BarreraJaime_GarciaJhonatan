@@ -718,6 +718,7 @@ svg .a1 {
     border-radius: 2vw;
 }
 
+
 .linea {
     position: absolute;
     background-color: #151515;
@@ -820,7 +821,7 @@ svg .a1 {
     }
 
     to {
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -839,7 +840,7 @@ svg .a1 {
     }
 
     to {
-        width: 40%;
+        width: 70%;
     }
 }
 
@@ -858,7 +859,7 @@ svg .a1 {
     }
 
     to {
-        width: 30%;
+        width: 70%;
     }
 }
 
@@ -877,7 +878,7 @@ svg .a1 {
     }
 
     to {
-        width: 70%;
+        width: 95%;
     }
 }
 
@@ -896,7 +897,7 @@ svg .a1 {
     }
 
     to {
-        width: 75%;
+        width: 90%;
     }
 }
 
@@ -915,7 +916,7 @@ svg .a1 {
     }
 
     to {
-        width: 12%;
+        width: 70%;
     }
 }
 

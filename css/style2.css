@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #12152d;
+    background-color: #000000;
     color: white;
     width: 100vw;
     height: 100vh;
@@ -79,7 +79,7 @@ header {
 svg {
     width: 20vw;
     height: 20vw;
-    background-color: #171832;
+    background-color: #151515;
 }
 
 .c1 {
@@ -89,7 +89,7 @@ svg {
     width: 10vw;
     height: 10vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #color1 {
@@ -120,7 +120,7 @@ svg {
     width: 10vw;
     height: 10vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #color3 {
@@ -151,7 +151,7 @@ svg {
     width: 10vw;
     height: 10vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #color5 {
@@ -182,7 +182,7 @@ svg {
     width: 10vw;
     height: 10vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #color7 {
@@ -331,7 +331,7 @@ svg .a1 {
     width: 7vw;
     height: 7vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #col1 {
@@ -387,7 +387,7 @@ svg .a1 {
     width: 7vw;
     height: 7vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 
 #col3 {
@@ -451,7 +451,7 @@ svg .a1 {
     width: 7vw;
     height: 7vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 #col5 {
     fill: none;
@@ -505,7 +505,7 @@ svg .a1 {
     width: 7vw;
     height: 7vw;
     border-radius: 1vw;
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
 }
 #col7 {
     fill: none;
@@ -603,7 +603,7 @@ svg .a1 {
     overflow: hidden;
     border-radius: 1vw;
     background-color: rgba(0, 0, 0, 0.422);
-    box-shadow: 1px 1px 21px 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.237);
 }
 
 .carousel {
@@ -648,7 +648,7 @@ svg .a1 {
     gap: 2vw;
     border: 1px solid red;
     margin-left: 80vw;
-    margin-top: 2vw;
+    margin-top: 80vh;
 }
 
 /* Main-Container */
@@ -660,7 +660,7 @@ svg .a1 {
     width: 50vw;
     border: 4vw solid transparent;
     bottom: -3.5vh;
-    border-bottom: 6vw solid #14213d;
+    border-bottom: 6vw solid #151515;
 }
 
 .menu {
@@ -700,25 +700,28 @@ svg .a1 {
     z-index: 2;
 }
 
-.menu li.active a {
+.menu li:hover a {
     color: #ffffff;
     z-index: 2;
 }
-
-.menu li.active::after {
-    content: '';
-    display: block;
-    width: 5vw;
-    height: 0.2vw;
-    background-color: #ffffff;
-    margin-top: 0.2vw;
-    border-radius: 0.1vw;
+.menu li:hover hr {
+    color: #ffffff;
     z-index: 2;
+    opacity: 1;
 }
+.menu li hr {
+    margin-top: 0.1vw;
+    width: 5vw;
+    height: 0.1vw;
+    opacity: 0;
+    background-color: #ffffff;
+    border-radius: 2vw;
+}
+
 
 .linea {
     position: absolute;
-    background-color: #14213d;
+    background-color: #151515;
     width: 100vw;
     height: 3vh;
     bottom: -1.5vh;
