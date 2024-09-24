@@ -1,3 +1,4 @@
+// Carousel 1
 let currentIndex = 0;
 const images = [
     '../storage/img/icons/img-company/1.jpg',
@@ -6,61 +7,91 @@ const images = [
     '../storage/img/icons/img-company/4.jpg',
     '../storage/img/icons/img-company/5.jpg',
     '../storage/img/icons/img-company/6.jpg'
-    
-
 ];
 
 function updateCarousel() {
     const imgElement = document.getElementById('carouselImage');
     imgElement.src = images[currentIndex];
 }
-const preloadImages = () => {
+
+function preloadImages() {
     images.forEach(src => {
         const img = new Image();
         img.src = src;
     });
-};
+}
 
 setInterval(() => {
     currentIndex = (currentIndex + 1) % images.length;
     updateCarousel();
-}, 3000); 
+}, 3000);
 
 preloadImages();
-updateCarousel();    
+updateCarousel();
 
-// //////////////////////////////////////////////
-
+// Carousel 2
 let currentIndex1 = 0;
 const images1 = [
-    '../storage/img/icons/img-company/a.jpg',
+    '../storage/img/icons/img-company/1.jpg',
     '../storage/img/icons/img-company/2.jpg',
     '../storage/img/icons/img-company/3.jpg',
     '../storage/img/icons/img-company/4.jpg',
     '../storage/img/icons/img-company/5.jpg',
     '../storage/img/icons/img-company/6.jpg'
-    
-
 ];
 
 function updateCarousel1() {
     const imgElement1 = document.getElementById('carouselImage1');
     imgElement1.src = images1[currentIndex1];
 }
-const preloadImages1 = () => {
+
+function preloadImages1() {
     images1.forEach(src => {
         const img1 = new Image();
         img1.src = src;
     });
-};
+}
 
-setInterval1(() => {
+setInterval(() => {
     currentIndex1 = (currentIndex1 + 1) % images1.length;
     updateCarousel1();
-}, 3000); 
+}, 3000);
 
 preloadImages1();
-updateCarousel1();  
+updateCarousel1();
+
+// Carousel 3
+let currentIndex2 = 0;
+const images2 = [
+    '../storage/img/icons/img-company/1.jpg',
+    '../storage/img/icons/img-company/2.jpg',
+    '../storage/img/icons/img-company/3.jpg',
+    '../storage/img/icons/img-company/4.jpg',
+    '../storage/img/icons/img-company/5.jpg',
+    '../storage/img/icons/img-company/6.jpg'
+];
+
+function updateCarousel2() {
+    const imgElement2 = document.getElementById('carouselImage2');
+    imgElement2.src = images2[currentIndex2];
+}
+
+function preloadImages2() {
+    images2.forEach(src => {
+        const img2 = new Image();
+        img2.src = src;
+    });
+}
+
+setInterval(() => {
+    currentIndex2 = (currentIndex2 + 1) % images2.length;
+    updateCarousel2();
+}, 3000);
+
+preloadImages2();
+updateCarousel2();
+
+/////////////////////////////////////
 
 
 let url = "https://api.spacexdata.com/v4/company";
