@@ -162,5 +162,12 @@ fetch(url)
         cto_propulsion.innerHTML += `
         <p>${data.cto_propulsion}</p>
         `;
+
+        let valuation = document.getElementById("valuation");
+        coo.innerHTML += `
+        <p>${data.valuation}</p>
+        `;
+
+       
     })
 

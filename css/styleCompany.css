@@ -40,10 +40,9 @@ header{
 #here{
     position: absolute;
     font-size: 2vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 8vw;
-    /* border: 1px solid white; */
     left: 43vw;
     font-family: D;
 }
@@ -51,11 +50,10 @@ header{
 #textCity{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 14vw;
-    /* border: 1px solid white; */
-    left: 44.5vw;
+    top: 7vw;
+    left: 3.7vw;
     font-family: T;
     z-index: 2;
 
@@ -65,11 +63,10 @@ header{
 #city{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 14vw;
-    /* border: 1px solid white; */
-    left: 47.5vw;
+    top: 7vw;
+    left: 7vw;
     font-family: T;
     z-index: 2;
 }
@@ -77,22 +74,20 @@ header{
 #textState{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 16vw;
-    /* border: 1px solid white; */
-    left: 44.3vw;
+    top: 9vw;
+    left: 3.3vw;
     font-family: T;
 }
 
 #state{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 16vw;
-    /* border: 1px solid white; */
-    left: 48vw;
+    top: 9vw;
+    left: 7.3vw;
     font-family: T;
 
 }
@@ -100,145 +95,143 @@ header{
 #textFounder{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 12vw;
-    /* border: 1px solid white; */
-    left: 44vw;
+    top: 5vw;
+    left: 3vw;
     font-family: T;
 }
 
 #founder{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 12vw;
-    /* border: 1px solid white; */
-    left: -5vw;
+    top: 5vw;
+    left: 8.4vw;
     font-family: T;
 }
 
 #textFounded{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 20vw;
-    /* border: 1px solid white; */
-    left: 3vw;
+    top: 12vw;
+    left: -1.5vw;
     font-family: T;
+    
+    text-align: center;
 }
 
 #founded{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 22vw;
-    /* border: 1px solid white; */
-    left: 4vw;
+    top: 14vw;
+    left: -1.5vw;
     font-family: T;
+    
+    text-align: center;
 }
 
 #textEmployees{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 8vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    
 
 }
 
 #employees{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 10vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    top: 2vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    
 
 }
 
 #textVehicles{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 12vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    top: 4vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    
 
 }
 
 #vehicles{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 14vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    top: 6vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+   
 
 }
 
 #textlaunch_sites{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 16vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    top: 8vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    
 
 }
 
 #launch_sites{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
-    top: 18vw;
-    left: -5vw;
-    /* border: 1px solid white; */
+    top: 10vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    
 
 }
 
 #textCeo{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 8vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
+    
 }
 
 #ceo{
     position: absolute;
     font-size: 0.8vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 10vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
 }
@@ -246,11 +239,10 @@ header{
 #textCoo{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 12vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
 }
@@ -258,11 +250,10 @@ header{
 #coo{
     position: absolute;
     font-size: 0.8vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 14vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
 
@@ -271,11 +262,10 @@ header{
 #textCto_propulsion{
     position: absolute;
     font-size: 1vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 16vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
 }
@@ -283,11 +273,10 @@ header{
 #cto_propulsion{
     position: absolute;
     font-size: 0.8vw;
-    width: 20vw;
+    width: 17vw;
     height: 2vw;
     top: 18vw;
     left: 80vw;
-    /* border: 1px solid white; */
     text-align: center;
     font-family: T;
 
@@ -586,8 +575,20 @@ header{
 #cuadro1{
     position: absolute;
     width: 14vw;
-    height: 24vw;
+    height: 16vw;
     position: absolute;
+    border: 1px solid white;
+    border-radius: 2vw;
+    border-color: #00bcd4;
+    align-items: baseline;
+    display: flex;
+}
+
+#cuadro2{
+    position: absolute;
+    width: 16.3vw;
+    height: 15vw;
+    left: 41.5vw;
     border: 1px solid white;
     border-radius: 2vw;
     border-color: #00bcd4;
