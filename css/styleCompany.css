@@ -793,7 +793,7 @@ header{
     }
     h1{
         font-family: d;
-        font-size: 6vw;
+        font-size: 9vw;
         z-index: 2;
     }
     
@@ -825,6 +825,156 @@ header{
     }
 
     #cohete1{
+        display: none;
+    }
+
+    #here{
+        position: absolute;
+        font-size: 6vw;
+        top: 16vw;
+        left: 30vw;
+    }
+
+    #cuadro2{
+        position: absolute;
+        top: 24vw;
+        width: 70%;
+        left: 7vw;
+        border: 1px solid white;
+        
+    }
+
+    #textFounder{
+        position: absolute;
+        top: 2vw;
+        font-size: 3vw;
+        left: 30%;
+    }
+
+    #founder{
+        position: absolute;
+        top: 2vw;
+        font-size: 3vw;
+        left: 50%;
+    }
+
+    #textCity{
+        position: absolute;
+        top: 10vw;
+        font-size: 3vw;
+        left: 30%;
+    }
+
+    #city{
+        position: absolute;
+        top: 10vw;
+        font-size: 3vw;
+        left: 42%;
+    }
+
+    #textState{
+        position: absolute;
+        top: 19vw;
+        font-size: 3vw;
+        left: 30%;
+    }
+
+    #state{
+        position: absolute;
+        top: 19vw;
+        font-size: 3vw;
+        left: 45%;
+    }
+
+    #cuadro1{
+        position: absolute;
+        top: 125vw;
+        width: 70%;
+        height: 23vw;
+        left: 7vw;
+        border: 1px solid white;
+        
+    }
+
+    #textEmployees{
+        position: absolute;
+        top: 2vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #employees{
+        position: absolute;
+        top: 6vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #textVehicles{
+        position: absolute;
+        top: 10vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #vehicles{
+        position: absolute;
+        top: 14vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #textlaunch_sites{
+        position: absolute;
+        width: 20.3vw;
+        top: 18vw;
+        font-size: 3vw;
+        left: 38%;
+    }
+
+    #launch_sites{
+        position: absolute;
+        top: 22vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #textFounded{
+        position: absolute;
+        width: 20.3vw;
+        top: 26vw;
+        font-size: 3vw;
+        left: 38%;
+    }
+    
+    #founded{
+        position: absolute;
+        top: 30vw;
+        font-size: 3vw;
+        left: 40%;
+    }
+
+    #cuadro3{
+        display: none;
+    }
+
+    .carousel-container{
+        position: absolute;
+        top: 30vw;
+        width: 550%;
+        left: -35.5vw;
+        
+    }
+
+    .carousel-container1{
+        display: none;
+    }
+
+    .carousel-container2{
+        display: none;
+    }
+
+    #home{
         display: none;
     }
     
