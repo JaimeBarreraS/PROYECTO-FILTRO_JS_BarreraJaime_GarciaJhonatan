@@ -980,8 +980,10 @@ svg .a1 {
 
 #TextHome{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.8vw;
     color: white;
+    padding-left: 0.7vw;
+    padding-top: 0.15vw;
 }
 
 #TextHome:hover{

@@ -94,7 +94,7 @@ h1 {
 
 .capsule:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px #bbca3888;
 }
 
 .capsule.active {
@@ -188,6 +188,65 @@ h1 {
     height: 3vh;
     bottom: -1.5vh;
     margin-left: -2vw;
+}
+
+#id{
+    color: #bcca38;
+}
+
+#menuHambur {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+#home{
+    position: fixed;
+    width: 5vw;
+    height: 1.5vw;
+    border: 1px solid white;
+    top: 39.5vw;
+    left: 2vw;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 2px;
+    font-family: D;
+}
+
+
+#home::before{
+    content: '';
+    bottom: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: bottom 0.3s ease;
+}
+
+
+#home:hover::before{
+    bottom: 0;
+}
+
+#home:not(:hover)::before{
+    bottom: 100%;
+    transition: bottom 0.3s ease;
+}
+
+#TextHome{
+    position: absolute;
+    font-size: 0.8vw;
+    color: white;
+    padding-left: 0.7vw;
+    padding-top: 0.15vw;
+}
+
+#TextHome:hover{
+    color: black;
 }
 
 #menuHambur{
@@ -286,4 +345,56 @@ h1 {
         left: 2vw;
         bottom: 0vw;
     }
+    #home{
+        position: fixed;
+        width: 15vw;
+        height: 4vw;
+        border: 1px solid white;
+        top: 8vw;
+        left: 80vw;
+        background-color: transparent;
+        overflow: hidden;
+        border-radius: 2px;
+        font-family: D;
+        z-index: 1;
+    }
+    #home::before{
+        content: '';
+        bottom: 100%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: bottom 0.3s ease;
+    }
+    
+    
+    #home:hover::before{
+        bottom: 0;
+    }
+    
+    #home:not(:hover)::before{
+        bottom: 100%;
+        transition: bottom 0.3s ease;
+    }
+    
+    #TextHome{
+        position: absolute;
+        font-size: 3vw;
+        color: white;
+        padding-left: 0.7vw;
+        padding-top: 0.15vw;
+    }
+    
+    #TextHome:hover{
+        color: black;
+    }
+    header {
+        margin-top: 40px;
+    }
+    #search{
+        width: 80%;
+        font-size: 2.6vw;
+    } 
 }

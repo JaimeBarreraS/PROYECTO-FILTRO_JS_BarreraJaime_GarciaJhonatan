@@ -22,32 +22,44 @@ body {
     height: 100vh;
     background-color: #0e0f0e;
     overflow-x: hidden;
+    position: relative;
 }
-header {
+
+body::before {
+    content: '';
+    background-image: url('../storage/img/icons/img-company/history2.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header, main {
+    position: relative; 
+    z-index: 1;
     color: #ffffff; 
     text-align: center;
     padding: 2rem 1rem;
-    z-index: 5;
     font-family: D;
-    z-index: 2;
 }
 
-h1 {
+header h1 {
     font-size: 2.5rem;
     margin: 0;
     font-weight: 600;
-    z-index: 2;
 }
 
-p {
+header p {
     font-size: 1.1rem;
     margin: 0.5rem 0;
-    z-index: 2;
 }
 
 main {
     padding: 2rem 1rem;
-    z-index: 2;
 }
 
 #history-events h2 {
@@ -55,62 +67,54 @@ main {
     margin-bottom: 1.5rem;
     color: #ffffff;
     text-align: center;
-    z-index: 2;
     font-family: S;
     margin-top: -2vw;
 }
-
 
 #events-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
-    z-index: 2;
     margin-left: 8vw;
     width: 80vw;
 }
 
 .event {
-    background-color: #1d1d1d4b; 
+    background-color: #1d1d1d4b;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.196); 
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.196);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 2;
     font-family: S;
     border: 1px solid #333;
 }
 
 .event:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
-    z-index: 2;
+    box-shadow: 0 0 30px #bbca3888;
 }
 
 .event h3 {
     margin-top: 0;
-    color: #f4f4f4; 
+    color: #f4f4f4;
     font-size: 1.5rem;
     font-weight: 500;
-    z-index: 2;
 }
 
 .event p {
     margin: 0.75rem 0;
-    color: #aaa; 
+    color: #aaa;
     line-height: 1.6;
-    z-index: 2;
 }
 
 .event p.date {
     font-size: 0.9rem;
-    color: #888; 
-    z-index: 2;
-}
-span{
-    color: #bcca38;
+    color: #888;
 }
 
+span {
+    color: #bcca38;
+}
 
 /* Main-Container */
 .menu-container {
@@ -190,17 +194,201 @@ span{
     z-index: 2;
 }
 
-#cohete1{
-    position: fixed;
-    width: 100vw;
-    height: 60vw;
-    left: 0vw;
-    top: 0vw;
-    opacity: 0.7;
+
+#menuHambur {
+    display: none;
 }
+
+.menu-icon {
+    display: none;
+}
+
+#home{
+    position: fixed;
+    width: 5vw;
+    height: 1.5vw;
+    border: 1px solid white;
+    top: 39.5vw;
+    left: 2vw;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 2px;
+    font-family: D;
+    z-index: 1;
+}
+
+
+#home::before{
+    content: '';
+    bottom: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: bottom 0.3s ease;
+}
+
+
+#home:hover::before{
+    bottom: 0;
+}
+
+#home:not(:hover)::before{
+    bottom: 100%;
+    transition: bottom 0.3s ease;
+}
+
+#TextHome{
+    position: absolute;
+    font-size: 0.8vw;
+    color: white;
+    padding-left: 0.7vw;
+    padding-top: 0.15vw;
+}
+
+#TextHome:hover{
+    color: black;
+}
+
 
 @media (max-width: 768px) {
     #events-container {
         grid-template-columns: 1fr;
     }
+    #menuHambur {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 5px;
+        font-size: 40px;
+        z-index: 1001;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0);
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    
+    .menu {
+        position: fixed;
+        top: 0vw;
+        left: -80%;
+        width: 80%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.893);
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 50px;
+        transition: 0.3s;
+        z-index: 1000;
+        overflow-y: auto;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        font-size: 4vw;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .menu li a {
+        margin-left: 1vw;
+        margin-top: 10vw;
+    }
+
+    .menu li:hover a {
+        color: #ffffff;
+        margin-left: 4vw;
+    }
+
+    .menu li:hover hr {
+        color: #ffffff;
+        opacity: 1;
+    }
+
+    .menu li hr {
+        width: 15vw;
+        height: 0.4vw;
+        opacity: 0;
+        background-color: #ffffff;
+        border-radius: 2vw;
+    }
+    
+    #menuHambur:checked ~ .menu-container .menu {
+        left: 0;
+    }
+    #home{
+        position: fixed;
+        width: 15vw;
+        height: 4vw;
+        border: 1px solid white;
+        top: 8vw;
+        left: 80vw;
+        background-color: transparent;
+        overflow: hidden;
+        border-radius: 2px;
+        font-family: D;
+        z-index: 1;
+    }
+    #home::before{
+        content: '';
+        bottom: 100%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: bottom 0.3s ease;
+    }
+    
+    
+    #home:hover::before{
+        bottom: 0;
+    }
+    
+    #home:not(:hover)::before{
+        bottom: 100%;
+        transition: bottom 0.3s ease;
+    }
+    
+    #TextHome{
+        position: absolute;
+        font-size: 3vw;
+        color: white;
+        padding-left: 0.7vw;
+        padding-top: 0.15vw;
+    }
+    
+    #TextHome:hover{
+        color: black;
+    }
+    header h1 {
+        margin-top: 7vw;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    header p {
+        font-size: 0.8rem;
+        margin: 0.5rem 0;
+    }
+    #history-events h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: S;
+        margin-top: -10vw;
+    }
+    
 }

@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const eventDiv = document.createElement('div');
             eventDiv.classList.add('event');
 
+            const link = document.createElement('a');
+            link.href = event.links.article ? event.links.article : '#'; 
+            link.target = '_blank'; 
+            link.style.textDecoration = 'none';
+
             const title = document.createElement('h3');
             title.textContent = event.title;
 
@@ -22,11 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const date = document.createElement('p');
             date.classList.add('date');
             const formattedDate = new Date(event.event_date_utc).toLocaleDateString();
-            date.innerHTML = `<span> Fecha: ${formattedDate} </span>` ;
+            date.innerHTML = `<span> Date: ${formattedDate} </span>` ;
 
-            eventDiv.appendChild(title);
-            eventDiv.appendChild(details);
-            eventDiv.appendChild(date);
+            link.appendChild(title);
+            link.appendChild(details);
+            link.appendChild(date);
+            eventDiv.appendChild(link);
 
             eventsContainer.appendChild(eventDiv);
         });

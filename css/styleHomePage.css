@@ -2,7 +2,10 @@
     font-family: D;
     src: url(../storage/font/D-DIN/D-DIN-Italic.woff2) format("woff2"),url(fonts/D-DIN-Bold.woff) format("woff"),url(fonts/D-DIN-Bold.otf) format("opentype");
 }
-
+@font-face {
+    font-family: V;
+    src: url(../storage/font/spacex/SpaceX.ttf);
+}
 
 
 *{
@@ -136,7 +139,147 @@ body{
     top: 0.8vw;
     left: 1.5vw;
     font-size: 1.2vw;
-   
+}
+
+@media (max-width: 768px) {
+    
+    video{
+        display: none;
+    }
+    
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../storage/img/icons/space.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
+    #misionName{
+        position: absolute;
+        left: 5vw;
+        font-size: 7vw;
+        top: 165vw;
+        color: white; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        z-index: 1;
+    }
+    #rectangle{
+        position: relative;
+        width: 25vw;
+        height: 6vw;
+        border: 2px solid rgb(255, 255, 255);
+        background: transparent;
+        overflow: hidden;
+        top: 155vw;
+        left: 5vw;
+        z-index: 1;
+    }
+    
+    #rectangle::before{
+        content: '';
+        bottom: 100%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: bottom 0.3s ease;
+    }
+    
+    
+    #rectangle:hover::before{
+        bottom: 0;
+    }
+    
+    #rectangle:not(:hover)::before{
+        bottom: 100%;
+        transition: bottom 0.3s ease;
+    }
+    
+    #rewatch{
+        position: absolute;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        top: 0.8vw;
+        left: 4vw;
+        font-size: 4vw;
+    }
+    #mision{
+        position: absolute;
+        left: 15vw;
+        font-size: 3vw;
+        top: 162vw;
+        left: 5vw;
+        color: white; 
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #logoSpace{
+        position: absolute;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        left: 6vw;
+        top: -20vw;
+    }
+    #text1{
+        position: absolute;
+        left: 20vw;
+        font-size: 5.5vw;
+        top: 80vw;
+        color: white; 
+        font-family: v;
+        text-align: center;
+        width: 60vw;
+        background-color: rgba(131, 131, 131, 0.51);
+        border-radius: 2vw;
+    }
+    #text1:hover, #text2:hover, #text3:hover, #text4:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: 60vw;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.863);
+    }
+    
+    #text2{
+        position: absolute;
+        left: 20vw;
+        font-size: 5.5vw;
+        top: 95vw;
+        color: white; 
+        font-family: v;
+        text-align: center;
+        width: 60vw;
+        background-color: rgba(131, 131, 131, 0.51);
+        border-radius: 2vw;
+    }
+    
+    #text3{
+        position: absolute;
+        left: 20vw;
+        font-size: 5.5vw;
+        top: 110vw;
+        color: white; 
+        font-family: v;
+        text-align: center;
+        width: 60vw;
+        background-color: rgba(131, 131, 131, 0.51);
+        border-radius: 2vw;
+    }
+    
+    #text4{
+        position: absolute;
+        left: 20vw;
+        font-size: 5.5vw;
+        top: 125vw;
+        color: white; 
+        font-family: v;
+        text-align: center;
+        width: 60vw;
+        background-color: rgba(131, 131, 131, 0.51);
+        border-radius: 2vw;
+    }
 }
 
 

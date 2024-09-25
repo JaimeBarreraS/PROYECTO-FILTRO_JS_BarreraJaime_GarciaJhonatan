@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p><strong>Status:</strong> ${capsule.status}</p>
                         <p><strong>Original Launch:</strong> ${capsule.original_launch || "No data"}</p>
                         <p><strong>Landings:</strong> ${capsule.land_landings}</p>
+                        <p id="id"><strong id="id">ID:</strong> ${capsule.id}</p>
                     `;
 
                     container.appendChild(capsuleElement);
