@@ -164,7 +164,7 @@ fetch(url)
         `;
 
         let valuation = document.getElementById("valuation");
-        coo.innerHTML += `
+        valuation.innerHTML += `
         <p>${data.valuation}</p>
         `;
 

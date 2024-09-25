@@ -43,7 +43,7 @@ header{
     width: 17vw;
     height: 2vw;
     top: 8vw;
-    left: 43vw;
+    left: 41.7vw;
     font-family: D;
 }
 
@@ -98,7 +98,7 @@ header{
     width: 17vw;
     height: 2vw;
     top: 5vw;
-    left: 3vw;
+    left: 2vw;
     font-family: T;
 }
 
@@ -108,7 +108,7 @@ header{
     width: 17vw;
     height: 2vw;
     top: 5vw;
-    left: 8.4vw;
+    left: 7.4vw;
     font-family: T;
 }
 
@@ -120,7 +120,7 @@ header{
     top: 12vw;
     left: -1.5vw;
     font-family: T;
-    
+    text-decoration-line: underline;
     text-align: center;
 }
 
@@ -144,6 +144,7 @@ header{
     left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
     
 
 }
@@ -153,7 +154,7 @@ header{
     font-size: 1vw;
     width: 17vw;
     height: 2vw;
-    top: 2vw;
+    top: 2.6vw;
     left: -1.5vw;
     text-align: center;
     font-family: T;
@@ -166,10 +167,11 @@ header{
     font-size: 1vw;
     width: 17vw;
     height: 2vw;
-    top: 4vw;
+    top: 4.5vw;
     left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
     
 
 }
@@ -196,6 +198,7 @@ header{
     left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
     
 
 }
@@ -218,10 +221,10 @@ header{
     font-size: 1vw;
     width: 17vw;
     height: 2vw;
-    top: 8vw;
-    left: 80vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
     
 }
 
@@ -230,8 +233,8 @@ header{
     font-size: 0.8vw;
     width: 17vw;
     height: 2vw;
-    top: 10vw;
-    left: 80vw;
+    top: 2.8vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
 }
@@ -241,10 +244,11 @@ header{
     font-size: 1vw;
     width: 17vw;
     height: 2vw;
-    top: 12vw;
-    left: 80vw;
+    top: 4vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
 }
 
 #coo{
@@ -252,8 +256,8 @@ header{
     font-size: 0.8vw;
     width: 17vw;
     height: 2vw;
-    top: 14vw;
-    left: 80vw;
+    top: 6vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
 
@@ -264,10 +268,11 @@ header{
     font-size: 1vw;
     width: 17vw;
     height: 2vw;
-    top: 16vw;
-    left: 80vw;
+    top: 8vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
+    text-decoration-line: underline;
 }
 
 #cto_propulsion{
@@ -275,12 +280,37 @@ header{
     font-size: 0.8vw;
     width: 17vw;
     height: 2vw;
-    top: 18vw;
-    left: 80vw;
+    top: 10vw;
+    left: -1.5vw;
     text-align: center;
     font-family: T;
 
 }
+
+#textValuation{
+    position: absolute;
+    font-size: 1vw;
+    width: 17vw;
+    height: 2vw;
+    top: 12vw;
+    left: -1.5vw;
+    text-align: center;
+    font-family: T;
+    text-decoration-line: underline;
+}
+
+#valuation{
+    position: absolute;
+    font-size: 0.8vw;
+    width: 17vw;
+    height: 2vw;
+    top: 14vw;
+    left: -1.5vw;
+    text-align: center;
+    font-family: T;
+}
+
+
 
 
 
@@ -574,7 +604,8 @@ header{
 
 #cuadro1{
     position: absolute;
-    width: 14vw;
+    left: 22.5vw;
+    width: 12vw;
     height: 16vw;
     position: absolute;
     border: 1px solid white;
@@ -582,14 +613,223 @@ header{
     border-color: #00bcd4;
     align-items: baseline;
     display: flex;
+    background-color: #1d1d1d4b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.196);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: S;
+    border: 1px solid #333;
+}
+
+.carousel-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
+}
+
+.carousel-container1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
+}
+
+.carousel-container2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
+}
+
+#cuadro1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
+}
+
+#cuadro2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
+}
+
+#cuadro3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #bbca3888;
 }
 
 #cuadro2{
     position: absolute;
-    width: 16.3vw;
-    height: 15vw;
+    width: 14.3vw;
+    height: 11vw;
     left: 41.5vw;
     border: 1px solid white;
     border-radius: 2vw;
     border-color: #00bcd4;
+    background-color: #1d1d1d4b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.196);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: S;
+    border: 1px solid #333;
+}
+
+#cuadro3{
+    position: absolute;
+    width: 12vw;
+    height: 16vw;
+    left:63vw;
+    border: 1px solid white;
+    border-radius: 2vw;
+    border-color: #00bcd4;
+    background-color: #1d1d1d4b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.196);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: S;
+    border: 1px solid #333;
+}
+
+
+
+#home{
+    position: fixed;
+    width: 5vw;
+    height: 1.5vw;
+    border: 1px solid white;
+    top: 44.5vw;
+    left: 6vw;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 2px;
+    font-family: D;
+    z-index: 1;
+}
+
+
+#home::before{
+    content: '';
+    bottom: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: bottom 0.3s ease;
+}
+
+
+#home:hover::before{
+    bottom: 0;
+}
+
+#home:not(:hover)::before{
+    bottom: 100%;
+    transition: bottom 0.3s ease;
+}
+
+#TextHome{
+    position: absolute;
+    font-size: 0.8vw;
+    color: white;
+    padding-left: 0.7vw;
+    padding-top: 0.15vw;
+}
+
+#TextHome:hover{
+    color: black;
+}
+
+
+#x{
+    position: absolute;
+    left: 85vw;
+    top: 45vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: white;
+
+}
+
+#xx{
+    position: absolute;
+    left: -0.3vw;
+    top: -0.3vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+#fl{
+    position: absolute;
+    left: 87.5vw;
+    top: 44.5vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+
+
+}
+
+#fll{
+    position: absolute;
+    left: -0.3vw;
+    top: -0.3vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+#cohete22{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    @font-face {
+        font-family: D;
+        src: url(../storage/font/spacex/SpaceX.ttf);
+    }
+    
+    
+    @font-face {
+        font-family: T;
+        src: url(../storage/font/nebula/Equinox\ Regular.otf);
+    }
+    h1{
+        font-family: d;
+        font-size: 6vw;
+        z-index: 2;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        /* background-color: #000000; */
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-image: url(../storage/img/icons/img-company/a\ \(4\).jpg);
+        background-size: cover;
+        background-color: #000000;
+        opacity: 0.6;
+    }
+    
+    header{
+        /* border: 1px solid rgb(255, 255, 255); */
+        width: 100vw;
+        justify-content: center;
+        display: flex;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
+
+    #cohete1{
+        display: none;
+    }
+    
+  
+
+   
+
 }
