@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #000000;
+    background-color: #0e0f0e;
     color: white;
     width: 100vw;
     height: 100vh;
@@ -43,6 +43,7 @@ header {
     width: 30vw;
     height: 70vh;
     top: 4vh;
+    z-index: 2;
 }
 
 .system-check #pa {
@@ -577,14 +578,7 @@ svg .a1 {
 .connections p {
     padding-top: 1 vw;
 }
-#Information p{
-    color: rgb(170, 170, 170);
-    font-size: 0.7vw;
-}
-#Information span{
-    color: rgb(255, 255, 255);
-    font-family: t;
-}
+
 
 /* Imagenes Section */
 .image_section {
@@ -635,11 +629,22 @@ svg .a1 {
     width: 50vw;
     height: 10vh;
     left: 24vw;
-    top: 85vh;
+    top: 87.5vh;
     border-radius: 1vw;
     text-align: center;
     font-family: T;
     font-size: 0.7vw;
+    z-index: 2;
+}
+#Information p{
+    color: rgb(170, 170, 170);
+    font-size: 0.7vw;
+    z-index: 2;
+}
+#Information span{
+    color: rgb(255, 255, 255);
+    font-family: t;
+    z-index: 2;
 }
 /* Rockets Section */
 .rockets {
@@ -649,6 +654,7 @@ svg .a1 {
     margin-left: 80vw;
     margin-top: 80vh;
     text-align: center;
+    z-index: 2;
 }
 .rockets a{
     text-decoration: none;
@@ -657,6 +663,7 @@ svg .a1 {
     font-size: 1vw;
     width: 40%;
     border-radius: 1vw;
+    z-index: 2;
 }
 
 .rockets a:hover {
@@ -861,7 +868,7 @@ svg .a1 {
 .porcent3 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 255, 0);
     border: #298bfe;
     animation: fillBar3 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -880,7 +887,7 @@ svg .a1 {
 .porcent4 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 0, 0);
     border: #298bfe;
     animation: fillBar4 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -899,7 +906,7 @@ svg .a1 {
 .porcent5 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 0, 0);
     border: #298bfe;
     animation: fillBar5 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -918,7 +925,7 @@ svg .a1 {
 .porcent6 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 255, 0);
     border: #298bfe;
     animation: fillBar6 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -982,3 +989,12 @@ svg .a1 {
 }
 
 /*Prueba */
+
+#cohete1{
+    position: absolute;
+    width: 100vw;
+    height: 40vw;
+    left: 0vw;
+    top: 8vw;
+    opacity: 0.6;
+}

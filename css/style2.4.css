@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #000000;
+    background-color: #0e0f0e;
     color: white;
     width: 100vw;
     height: 100vh;
@@ -43,6 +43,7 @@ header {
     width: 30vw;
     height: 70vh;
     top: 4vh;
+    z-index: 2;
 }
 
 .system-check #pa {
@@ -632,23 +633,40 @@ svg .a1 {
 /* description Section */
 #description_section{
     position: absolute;
-    width: 50vw;
+    width: 60vw;
     height: 10vh;
-    left: 24vw;
-    top: 85vh;
+    left: 20vw;
+    top: 87.5vh;
     border-radius: 1vw;
     text-align: center;
     font-family: T;
     font-size: 0.7vw;
+    z-index: 2;
 }
 /* Rockets Section */
 .rockets {
-    width: 10%;
+    width: 12%;
     display: flex;
     gap: 2vw;
-    border: 1px solid red;
     margin-left: 80vw;
     margin-top: 80vh;
+    text-align: center;
+    z-index: 2;
+}
+.rockets a{
+    text-decoration: none;
+    color: white;
+    font-family: D;
+    font-size: 1vw;
+    width: 40%;
+    border-radius: 1vw;
+    z-index: 2;
+}
+
+.rockets a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.863);
 }
 
 /* Main-Container */
@@ -828,7 +846,7 @@ svg .a1 {
 .porcent2 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 255, 0);
     border: #298bfe;
     animation: fillBar2 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -847,7 +865,7 @@ svg .a1 {
 .porcent3 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 0, 0);
     border: #298bfe;
     animation: fillBar3 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -885,7 +903,7 @@ svg .a1 {
 .porcent5 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 255, 0);
     border: #298bfe;
     animation: fillBar5 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -904,7 +922,7 @@ svg .a1 {
 .porcent6 {
     width: 0;
     height: 100%;
-    background-color: #298bfe;
+    background-color: rgb(255, 0, 0);
     border: #298bfe;
     animation: fillBar6 2s ease-in-out forwards;
     border-radius: 2vw;
@@ -922,12 +940,58 @@ svg .a1 {
 
 /* Footer Section */
 
-.Footer {
-    border: 1px solid red;
-    width: 20vw;
-    height: 4vh;
-    margin-left: 77vw;
-    margin-top: -10vh;
+#home{
+    position: absolute;
+    width: 5vw;
+    height: 1.5vw;
+    border: 1px solid white;
+    top: 39.5vw;
+    left: 4vw;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 2px;
+    font-family: D;
+}
+
+
+#home::before{
+    content: '';
+    bottom: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: bottom 0.3s ease;
+}
+
+
+#home:hover::before{
+    bottom: 0;
+}
+
+#home:not(:hover)::before{
+    bottom: 100%;
+    transition: bottom 0.3s ease;
+}
+
+#TextHome{
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+}
+
+#TextHome:hover{
+    color: black;
 }
 
 /*Prueba */
+
+#cohete1{
+    position: absolute;
+    width: 100vw;
+    height: 40vw;
+    left: 0vw;
+    top: 8vw;
+    opacity: 0.6;
+}
