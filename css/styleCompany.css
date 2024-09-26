@@ -370,7 +370,7 @@ header{
 
 #sumary{
     position: absolute;
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     font-family: T;
     top: 44vw;
     width: 100%;
@@ -693,7 +693,7 @@ header{
     width: 5vw;
     height: 1.5vw;
     border: 1px solid white;
-    top: 44.5vw;
+    top: 42vw;
     left: 6vw;
     background-color: transparent;
     overflow: hidden;
@@ -778,20 +778,25 @@ header{
     display: none;
 }
 
+#fondito{
+    display: none;
+}
 
 @media (max-width: 768px) {
 
-    @font-face {
-        font-family: D;
-        src: url(../storage/font/spacex/SpaceX.ttf);
+    #fondito{
+        margin-top: -16vw;
+        height: 100vh;
+        width: 100vw;
+        display: block;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.7;
     }
-    
-    
-    @font-face {
-        font-family: T;
-        src: url(../storage/font/nebula/Equinox\ Regular.otf);
-    }
+
     h1{
+        position: absolute;
+        top: 15vw;
         font-family: d;
         font-size: 9vw;
         z-index: 2;
@@ -803,16 +808,9 @@ header{
     }
     
     body {
-        font-family: 'Arial', sans-serif;
-        /* background-color: #000000; */
-        color: white;
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-        background-image: url(../storage/img/icons/img-company/a\ \(4\).jpg);
-        background-size: cover;
-        background-color: #000000;
-        opacity: 0.6;
+        
+        overflow: scroll;
+       
     }
     
     header{
@@ -831,14 +829,16 @@ header{
     #here{
         position: absolute;
         font-size: 6vw;
-        top: 16vw;
+        top: 26vw;
         left: 30vw;
     }
 
     #cuadro2{
+
         position: absolute;
-        top: 24vw;
-        width: 70%;
+        top: 36vw;
+        width: 28%;
+        height: 23vw;
         left: 7vw;
         border: 1px solid white;
         
@@ -848,7 +848,7 @@ header{
         position: absolute;
         top: 2vw;
         font-size: 3vw;
-        left: 30%;
+        left: 5vw;
     }
 
     #founder{
@@ -862,9 +862,12 @@ header{
         position: absolute;
         top: 10vw;
         font-size: 3vw;
-        left: 30%;
+        left: 7vw;
     }
 
+    .linea{
+        display: none;
+    }
     #city{
         position: absolute;
         top: 10vw;
@@ -876,7 +879,7 @@ header{
         position: absolute;
         top: 19vw;
         font-size: 3vw;
-        left: 30%;
+        left: 7vw;
     }
 
     #state{
@@ -887,41 +890,53 @@ header{
     }
 
     #cuadro1{
+        
         position: absolute;
-        top: 125vw;
-        width: 70%;
+        top: 36vw;
+        width: 30%;
         height: 23vw;
-        left: 7vw;
+        left: 50vw;
         border: 1px solid white;
         
+    }
+
+    body{
+        height: 115vh;
+    }
+
+
+
+    #x,#fl{
+        position: absolute;
+        display: none;   
     }
 
     #textEmployees{
         position: absolute;
         top: 2vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #employees{
         position: absolute;
         top: 6vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #textVehicles{
         position: absolute;
         top: 10vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #vehicles{
         position: absolute;
         top: 14vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #textlaunch_sites{
@@ -929,14 +944,14 @@ header{
         width: 20.3vw;
         top: 18vw;
         font-size: 3vw;
-        left: 38%;
+        left: 25%;
     }
 
     #launch_sites{
         position: absolute;
         top: 22vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #textFounded{
@@ -944,40 +959,147 @@ header{
         width: 20.3vw;
         top: 26vw;
         font-size: 3vw;
-        left: 38%;
+        left: 26%;
     }
     
     #founded{
         position: absolute;
         top: 30vw;
         font-size: 3vw;
-        left: 40%;
+        left: 30%;
     }
 
     #cuadro3{
+        position: absolute;
+        border: 3px solid red;
+        top: 145vw;
         display: none;
     }
 
     .carousel-container{
         position: absolute;
-        top: 30vw;
-        width: 550%;
+        top:52vw;
+        width: 570%;
         left: -35.5vw;
+        z-index: 2;
+        border-radius: 4vw;
         
     }
 
     .carousel-container1{
-        display: none;
+        margin-top: 149vw;
+        width: 550%;
+        height: 40vw;
+        left: -15vw;
+        z-index:3;   
+        border-radius: 6vw;
     }
 
     .carousel-container2{
-        display: none;
+       display: none;
     }
 
+   
     #home{
+        position: fixed;
+        width: 15vw;
+        height: 4vw;
+        border: 1px solid white;
+        top: 8vw;
+        left: 80vw;
+        background-color: transparent;
+        overflow: hidden;
+        border-radius: 2px;
+        font-family: D;
+        z-index: 1;
+    }
+    #home p{
+        position: absolute;
+        font-size: 3vw;
+        color: white;
+        padding-left: 0.7vw;
+        padding-top: 0.15vw;
+    }
+
+    #menuHambur {
         display: none;
     }
     
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 15px;
+        font-size: 40px;
+        z-index: 1001;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    .menu{
+        position: fixed;
+        top: 0vw;
+        left: -80%;
+        width: 80%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.893);
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 50px;
+        transition: 0.3s;
+        z-index: 1000;
+        overflow-y: auto;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        font-size: 4vw;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu img {
+        width: 10vw;
+        height: 10vw;
+        z-index: 2;
+    }
+    .menu li a {
+        margin-left:1vw ;
+        margin-top: 10vw;
+    }
+    
+    .menu li:hover a {
+        color: #ffffff;
+        z-index: 2;
+        margin-left:4vw ;
+    }
+    .menu li:hover hr {
+        color: #ffffff;
+        z-index: 2;
+        opacity: 1;
+    }
+    .menu li hr {
+        width: 15vw;
+        height: 0.4vw;
+        opacity: 0;
+        background-color: #ffffff;
+        border-radius: 2vw;
+    }
+    #menuHambur:checked ~ .menu-container .menu {
+        left: 0;
+    }
+
+    #sumary{
+        
+        position: absolute;
+        font-size: 3vw;
+        font-family: T;
+        top: 156vw;
+        width: 80%;
+        left: 10vw;
+        font-weight: bold;
+        text-align: center;
+    }
   
 
    
