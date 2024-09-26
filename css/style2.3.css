@@ -1015,7 +1015,7 @@ svg .a1 {
     }
     #cohete2{
         display: block;
-        position: absolute;
+        position: fixed;
         width: 185vw;
         height: 61.5vh;
         left: 0vw;
