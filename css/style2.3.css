@@ -95,7 +95,7 @@ svg {
 
 #color1 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 15 100;
@@ -126,7 +126,7 @@ svg {
 
 #color3 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 7 100;
@@ -157,7 +157,7 @@ svg {
 
 #color5 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 15 100;
@@ -188,7 +188,7 @@ svg {
 
 #color7 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 20 100;
@@ -1000,8 +1000,318 @@ svg .a1 {
 .menu-icon{
     display: none;
 }
+#cohete2{
+    display: none;
+}
 /* Responsive */
 @media (max-width: 768px) {
+
+    
+    body{
+        background-color: #000000;
+    }
+    .linea{
+        display: none;
+    }
+    #cohete2{
+        display: block;
+        position: absolute;
+        width: 185vw;
+        height: 61.5vh;
+        left: 0vw;
+        top: 68vw;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #cohete1{
+        display: none;
+    }
+    header {
+        top: 8vh;
+        left: 23vw;
+        font-size: 4vw;
+    }
+    .system-check {
+        display: none;
+    }
+    .carousel-container {
+        width: 42vw;
+        height: 44vw;
+        top: -11vh;
+        left: -34vw;
+        border-radius: 2vw;
+    }
+
+    .velocity-range {
+        position: absolute;
+        width: 45vw;
+        height: 35vh;
+        left: 50vw;
+        top: 22vh;
+        font-family: S;
+    }
+    .velocity-range  h3 {
+        font-size: 2.5vw;
+    }
+    .velocity-range  p {
+        font-size: 2vw;
+    }
+    .velocity-range #data-velocity h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .velocity-range #data-velocity2 h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity2 p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .velocity-range #data-velocity3 h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity3 p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .velocity-range #data-velocity4 h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity4 p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .velocity-range #data-velocity5 h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity5 p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .velocity-range #data-velocity6 h3 {
+        margin-top: -4.5vw;
+    }
+    
+    .velocity-range #data-velocity6 p {
+        margin-top: -0.5vw;
+        margin-left: 35vw;
+    }
+    
+    .bar {
+        background-color: #30344c;
+        height: 1.5vw;
+        width: 30vw;
+        margin-top: 5vw;
+        border-radius: 8vw;
+        overflow: hidden;
+    }
+
+    .connections {
+        position: absolute;
+        width: 45vw;
+        height: 30vh;
+        left: 48vw;
+        top: 54vh;
+        padding-left: 1.5vw;
+        font-family: D;
+    }
+    .connections h3{
+        padding-top: 0.5vw;
+        font-size: 2.4vw;
+    }
+    #Information p{
+        font-size: 3vw;
+    }
+    #Information span{
+        font-weight: bold;
+    }
+    
+    .main-display {
+        width: 50vw;
+        height: 25vh;
+        left: 2vw;
+        top: 54vh;
+    }
+    .c1 {
+        top: 0.6vw;
+        left: 1vw;
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    #color1, #color3, #color5, #color7 {
+        stroke-width: 2vw;
+    }
+
+    .c2 {
+        top: 23vw;
+        left: 1vw;
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .c3 {
+        top: 23vw;
+        left: 24vw;
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .c4 {
+        top: 0.6vw;
+        left: 24vw;
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .data-display1 h3 {
+        left: 8.7vw;
+        top: 4.5vw;
+        font-size: 2vw;
+    }
+    
+    .data-display1 h2 {
+        left: 6.8vw;
+        top: 7vw;
+        font-size: 5vw;
+    }
+    
+    .data-display1 p {
+        left: 9vw;
+        top: 13vw;
+        font-size: 2vw;
+    }
+    
+    .data-display2 h3 {
+        left: 5.2vw;
+        top: 27vw;
+        font-size: 2vw;
+    }
+    
+    .data-display2 h2 {
+        left: 6.8vw;
+        top: 30vw;
+        font-size: 5vw;
+    }
+    
+    .data-display2 p {
+        left: 9vw;
+        top: 36vw;
+        font-size: 2vw;
+    }
+    
+    .data-display3 h3 {
+        left: 28vw;
+        top: 27vw;
+        font-size: 1.5vw;
+    }
+    
+    .data-display3 h2 {
+        left: 29.5vw;
+        top: 30vw;
+        font-size: 5vw;
+    }
+    
+    .data-display3 p {
+        left: 32vw;
+        top: 36vw;
+        font-size: 2vw;
+    }
+    
+    .data-display4 h3 {
+        left: 32vw;
+        top: 4.5vw;
+        font-size: 2vw;
+    }
+    
+    .data-display4 h2 {
+        left: 29.5vw;
+        top: 7vw;
+        font-size: 5vw;
+    }
+    
+    .data-display4 p {
+        left: 31vw;
+        top: 13vw;
+        font-size: 2vw;
+    }
+    
+    .loop-power1 {
+        display: none;
+    }
+    .loop-power2 {
+        display: none;
+    }
+    #description_section{
+        position: absolute;
+        width: 90vw;
+        height: 10vh;
+        left: 6vw;
+        top: 80vh;
+        border-radius: 1vw;
+        text-align: center;
+        font-family: T;
+        font-size: 2.5vw;
+        z-index: 2;
+    }
+    #home{
+        position: fixed;
+        width: 15vw;
+        height: 4vw;
+        border: 1px solid white;
+        top: 8vw;
+        left: 80vw;
+        background-color: transparent;
+        overflow: hidden;
+        border-radius: 2px;
+        font-family: D;
+        z-index: 1;
+    }
+    #TextHome{
+        position: absolute;
+        font-size: 3vw;
+        color: white;
+        padding-left: 0.7vw;
+        padding-top: 0.15vw;
+    }
+    
+    .rockets {
+        width: 40%;
+        height: 8vw;
+        display: flex;
+        gap: 2vw;
+        margin-left: 30vw;
+        margin-top: 4vh;
+        text-align: center;
+        z-index: 2;
+    }
+    .rockets a{
+        text-decoration: none;
+        color: white;
+        font-family: D;
+        font-size: 3vw;
+        width: 30%;
+        border-radius: 6vw;
+        z-index: 2;
+        padding-top: 1.3vw;
+    }
+    
+    /*#############################*/
+
+
     #menuHambur {
         display: none;
     }

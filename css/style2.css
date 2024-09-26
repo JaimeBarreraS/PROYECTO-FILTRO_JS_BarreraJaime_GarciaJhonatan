@@ -95,7 +95,7 @@ svg {
 
 #color1 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 15 100;
@@ -126,7 +126,7 @@ svg {
 
 #color3 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 7 100;
@@ -157,7 +157,7 @@ svg {
 
 #color5 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 15 100;
@@ -188,7 +188,7 @@ svg {
 
 #color7 {
     fill: none;
-    stroke-width: 0.5vw;
+    stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
     stroke-dasharray: 20 100;
@@ -1004,23 +1004,42 @@ svg .a1 {
 .menu-icon{
     display: none;
 }
+#cohete2{
+    display: none;
+}
 /* Responsive */
 @media (max-width: 768px) {
 
+    body{
+        background-color: #000000;
+    }
+    .linea{
+        display: none;
+    }
+    #cohete2{
+        display: block;
+        position: absolute;
+        width: 185vw;
+        height: 61.5vh;
+        left: 0vw;
+        top: 68vw;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #cohete1{
+        display: none;
+    }
     header {
-        top: 7vh;
+        top: 10vh;
         font-size: 4vw;
-        z-index: 1;
     }
     .system-check {
         display: none;
     }
-    
- 
     .carousel-container {
         width: 42vw;
         height: 44vw;
-        top: -19.5vh;
+        top: -15vh;
         left: -34vw;
         border-radius: 2vw;
     }
@@ -1030,7 +1049,7 @@ svg .a1 {
         width: 45vw;
         height: 35vh;
         left: 50vw;
-        top: 14vh;
+        top: 18vh;
         font-family: S;
     }
     .velocity-range  h3 {
@@ -1107,7 +1126,7 @@ svg .a1 {
         width: 45vw;
         height: 30vh;
         left: 48vw;
-        top: 45vh;
+        top: 49vh;
         padding-left: 1.5vw;
         font-family: D;
     }
@@ -1126,233 +1145,110 @@ svg .a1 {
         width: 50vw;
         height: 25vh;
         left: 2vw;
-        top: 45vh;
+        top: 49vh;
     }
-    
-    svg {
-        width: 20vw;
-        height: 20vw;
-        background-color: #151515;
-    }
-    
     .c1 {
-        position: absolute;
         top: 0.6vw;
         left: 1vw;
         width: 20vw;
         height: 20vw;
-        border-radius: 1vw;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
     }
     
-    #color1 {
-        fill: none;
-        stroke-width: 0.5vw;
-        stroke-dasharray: 100;
-        stroke-dashoffset: 0;
-        stroke-dasharray: 15 100;
-        transform: rotate(125deg);
-        transform-origin: 50%;
-        stroke: rgb(255, 255, 0);
-        animation: cargar 2s forwards ease-in-out;
-        width: 10vw;
+    #color1, #color3, #color5, #color7 {
+        stroke-width: 2vw;
     }
 
     .c2 {
-        position: absolute;
         top: 23vw;
         left: 1vw;
         width: 20vw;
         height: 20vw;
-        border-radius: 1vw;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
-    }
-    
-    #color2 {
-        fill: none;
-        stroke-width: 0.1vw;
-        stroke-dasharray: 65 100;
-        transform: rotate(179deg);
-        transform-origin: 50%;
-        stroke: rgb(88, 88, 88);
     }
     
     .c3 {
-        position: absolute;
         top: 23vw;
         left: 24vw;
         width: 20vw;
         height: 20vw;
-        border-radius: 1vw;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
-    }
-    
-    
-    #color3 {
-        fill: none;
-        stroke-width: 0.5vw;
-        stroke-dasharray: 100;
-        stroke-dashoffset: 0;
-        stroke-dasharray: 7 100;
-        transform: rotate(125deg);
-        transform-origin: 50%;
-        stroke: rgb(255, 0, 0);
-        animation: cargar 2s forwards ease-in-out;
-    }
-    
-    #color4 {
-        fill: none;
-        stroke-width: 0.1vw;
-        stroke-dasharray: 73 100;
-        transform: rotate(150deg);
-        transform-origin: 50%;
-        stroke: rgb(88, 88, 88);
-    }
-    
-
-    
-    #color5 {
-        fill: none;
-        stroke-width: 0.5vw;
-        stroke-dasharray: 100;
-        stroke-dashoffset: 0;
-        stroke-dasharray: 15 100;
-        transform: rotate(125deg);
-        transform-origin: 50%;
-        stroke: rgb(255, 255, 0);
-        animation: cargar 2s forwards ease-in-out;
-    }
-    
-    #color6 {
-        fill: none;
-        stroke-width: 0.1vw;
-        stroke-dasharray: 65 100;
-        transform: rotate(179deg);
-        transform-origin: 50%;
-        stroke: rgb(88, 88, 88);
     }
     
     .c4 {
-        position: absolute;
         top: 0.6vw;
         left: 24vw;
         width: 20vw;
         height: 20vw;
-        border-radius: 1vw;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.237);
     }
-    
-    #color7 {
-        fill: none;
-        stroke-width: 0.5vw;
-        stroke-dasharray: 100;
-        stroke-dashoffset: 0;
-        stroke-dasharray: 20 100;
-        transform: rotate(125deg);
-        transform-origin: 50%;
-        stroke: #298bfe;
-        animation: cargar 2s forwards ease-in-out;
-    }
-    
-    #color8 {
-        fill: none;
-        stroke-width: 0.1vw;
-        stroke-dasharray: 60 100;
-        transform: rotate(196deg);
-        transform-origin: 50%;
-        stroke: rgb(88, 88, 88);
-    }
-    
+
     .data-display1 h3 {
-        position: absolute;
         left: 8.7vw;
-        top: 3vw;
-        font-size: 0.8vw;
-        font-weight: lighter;
+        top: 4.5vw;
+        font-size: 2vw;
     }
     
     .data-display1 h2 {
-        position: absolute;
-        left: 8vw;
-        top: 4vw;
-        font-size: 2vw;
+        left: 6.8vw;
+        top: 7vw;
+        font-size: 5vw;
     }
     
     .data-display1 p {
-        position: absolute;
-        left: 8.7vw;
-        top: 7vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
+        left: 9vw;
+        top: 13vw;
+        font-size: 2vw;
     }
     
     .data-display2 h3 {
-        position: absolute;
-        left: 19vw;
-        top: 3vw;
-        font-size: 0.8vw;
-        font-weight: lighter;
+        left: 5.2vw;
+        top: 27vw;
+        font-size: 2vw;
     }
     
     .data-display2 h2 {
-        position: absolute;
-        left: 19.1vw;
-        top: 4vw;
-        font-size: 2vw;
+        left: 6.8vw;
+        top: 30vw;
+        font-size: 5vw;
     }
     
     .data-display2 p {
-        position: absolute;
-        left: 20.1vw;
-        top: 7vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
+        left: 9vw;
+        top: 36vw;
+        font-size: 2vw;
     }
     
     .data-display3 h3 {
-        position: absolute;
-        left: 29.2vw;
-        top: 3vw;
-        font-size: 0.8vw;
-        font-weight: lighter;
+        left: 28vw;
+        top: 27vw;
+        font-size: 1.5vw;
     }
     
     .data-display3 h2 {
-        position: absolute;
         left: 29.5vw;
-        top: 4vw;
-        font-size: 2vw;
+        top: 30vw;
+        font-size: 5vw;
     }
     
     .data-display3 p {
-        position: absolute;
-        left: 31vw;
-        top: 7vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
-    }
-    
-    .data-display4 h3 {
-        position: absolute;
-        left: 42vw;
-        top: 3vw;
-        font-size: 0.8vw;
-        font-weight: lighter;
-    }
-    
-    .data-display4 h2 {
-        position: absolute;
-        left: 41vw;
-        top: 4vw;
+        left: 32vw;
+        top: 36vw;
         font-size: 2vw;
     }
     
-    .data-display4 p {
-        position: absolute;
-        left: 41.2vw;
+    .data-display4 h3 {
+        left: 32vw;
+        top: 4.5vw;
+        font-size: 2vw;
+    }
+    
+    .data-display4 h2 {
+        left: 29.5vw;
         top: 7vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
+        font-size: 5vw;
+    }
+    
+    .data-display4 p {
+        left: 31vw;
+        top: 13vw;
+        font-size: 2vw;
     }
     
     .loop-power1 {
@@ -1400,7 +1296,7 @@ svg .a1 {
         display: flex;
         gap: 2vw;
         margin-left: 30vw;
-        margin-top: 87vh;
+        margin-top: 4vh;
         text-align: center;
         z-index: 2;
     }
@@ -1416,6 +1312,7 @@ svg .a1 {
     }
     
     /*#############################*/
+
     #menuHambur {
         display: none;
     }
