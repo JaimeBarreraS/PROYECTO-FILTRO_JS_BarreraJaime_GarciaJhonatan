@@ -98,7 +98,7 @@ svg {
     stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 15 100;
+    stroke-dasharray: 50 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 255, 0);
@@ -129,7 +129,7 @@ svg {
     stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 7 100;
+    stroke-dasharray: 30 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 0, 0);
@@ -160,7 +160,7 @@ svg {
     stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 15 100;
+    stroke-dasharray: 40 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 255, 0);
@@ -191,7 +191,7 @@ svg {
     stroke-width: 0.4vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 20 100;
+    stroke-dasharray: 60 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: #298bfe;
@@ -340,7 +340,7 @@ svg .a1 {
     stroke-width: 0.5vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 15 100;
+    stroke-dasharray: 45 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 255, 0);
@@ -396,7 +396,7 @@ svg .a1 {
     stroke-width: 0.5vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 7 100;
+    stroke-dasharray: 35 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 0, 0);
@@ -459,7 +459,7 @@ svg .a1 {
     stroke-width: 0.5vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 15 100;
+    stroke-dasharray: 45 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: rgb(255, 255, 0);
@@ -513,7 +513,7 @@ svg .a1 {
     stroke-width: 0.5vw;
     stroke-dasharray: 100;
     stroke-dashoffset: 0;
-    stroke-dasharray: 20 100;
+    stroke-dasharray: 60 100;
     transform: rotate(125deg);
     transform-origin: 50%;
     stroke: #298bfe;
