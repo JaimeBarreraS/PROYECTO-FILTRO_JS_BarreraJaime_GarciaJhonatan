@@ -781,6 +781,12 @@ header{
 #fondito{
     display: none;
 }
+#menuHambur{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
 
 @media (max-width: 768px) {
 
